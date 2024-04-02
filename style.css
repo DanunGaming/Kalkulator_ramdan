@@ -1,0 +1,132 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: url("sunset.jpg");
+}
+
+.container
+{
+    width: 45%;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px #fff,
+                -5px -5px 8px #ffffff;
+}
+
+.display #screen
+{
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+}
+
+.btns
+{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button
+{
+    width: 75px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000013,
+                -5px -5px 8px #ffffff;
+}
+
+.btns .row button:hover
+{
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+                inset -5px -5px 8px #fff;
+    background: #fff;
+}
+
+#btnNum
+{
+    background: #90afc5;
+    color: #fff;
+}
+
+#btnNum:hover
+{
+    box-shadow: inset 5px 5px 8px #90afc5,
+                inset -5px -5px 8px #90afc5;
+}
+
+#btnoptr
+{
+    background: #2a3132;
+    color: #fff;
+}
+
+#btnoptr:hover
+{
+    box-shadow: inset 5px 5px 8px #2a3132,
+                inset -5px -5px 8px #2a3132;
+}
+
+#btnscience
+{
+    background: #336b87;
+    color: #fff;
+}
+
+#btnscience:hover
+{
+    box-shadow: inset 5px 5px 8px #726a95,
+                inset -5px -5px 8px #fff;
+}
+
+#eval {
+    background: #763626;
+    color: #fff;
+
+}
+
+#eval:hover {
+    box-shadow: inset 5px 5px 8px #763626,
+                inset -5px -5px 8px #fff;
+}
+
+#ac{
+    background: #a1d6e2;
+    color: #fff;
+}
+
+#ac:hover {
+    box-shadow: inset 5px 5px 8px #a1d6e2,
+                inset -5px -5px 8px #a1d6e2;
+}
+
+#ce{
+    background: #598234;
+    color: #fff;
+}
+
+#ce:hover {
+    box-shadow: inset 5px 5px 8px #598234,
+                inset -5px -5px 8px #598234;
+}
